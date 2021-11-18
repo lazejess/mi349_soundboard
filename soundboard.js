@@ -8,15 +8,15 @@ sounds.forEach((sound) => {
     btn.classList.add('btn');
     btn.innerText = sound;
     btn.addEventListener("click", ()=>{
-        stopsound();
-        document.getElementById(sound).onplay();
-    })
+        stopSongs();
+        document.getElementById(sound).play();
+    });
     document.getElementByID("buttons").appendChild(btn);
 });
-function stopsound(){
+function stopSongs(){
     sounds.forEach(sound => {
-        const audio = document.getElementById(sound);
-        audio.pause();
-        audio.currentTime(0);
+        const song = document.getElementById(sound);
+        song.pause();
+        song.currentTime(0);
     });
 }
