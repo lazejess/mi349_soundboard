@@ -19,3 +19,10 @@ header {
     border-radius: 5px;
     padding: 4px
 }
+.btn:focus{
+    outline: none;
+
+}
+.btn:active{
+    background-color: cornflowerblue;
+}
