@@ -15,7 +15,7 @@ sounds.forEach((sound) => {
         document.getElementById(sound).play();
     });
 
-    document.getElementById("buttons").appendChild(btn);
+    document.getElementById("buttons").append(btn);
 });
 
 function stopSound() {
