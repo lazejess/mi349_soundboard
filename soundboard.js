@@ -11,6 +11,7 @@ sounds.forEach((sound) => {
     btn.innerText = sound;
 
     btn.addEventListener('click', () => {
+        stopSongs();
         document.getElementById(sound).play();
     });
 
