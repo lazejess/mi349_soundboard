@@ -11,17 +11,17 @@ sounds.forEach((sound) => {
     btn.innerText = sound;
 
     btn.addEventListener("click", () => {
-        stopSongs();
+        stopSound();
         document.getElementById(sound).play();
     });
 
     document.getElementById("buttons").appendChild(btn);
 });
 
-function stopSongs() {
+function stopSound() {
     sounds.forEach((sound) => {
-        const song = document.getElementById(sound);
-        song.pause();
-        song.currentTime = 0;
+        const soundsnip = document.getElementById(sound);
+        soundsnip.pause();
+        soundsnip.currentTime = 0;
     })
 }
