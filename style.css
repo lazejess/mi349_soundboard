@@ -35,5 +35,4 @@ section{
 .btn:active{
     background-color: cornflowerblue;
     transform: scale(0.8);
-    transform: translateY(4px);
 }
