@@ -5,6 +5,7 @@ body {
     border-bottom: 4px solid darkblue;
     background-color:whitesmoke ;
     align-items: center;
+    display: flex;
     
 }
 
