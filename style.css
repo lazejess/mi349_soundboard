@@ -3,19 +3,15 @@ body {
     margin: 20px;
     padding: 20px;
     background-color:whitesmoke ;
-    align-items: center;
-
-    
 }
 
 h1 {
     font-size: 3em;
-    color: darkblue;
+    color: blue;
     margin: 0;
     line-height: 2em;
     font-family: sans-serif;
-    margin: center;
-    border-bottom: 4px solid darkblue;
+    border-bottom: 4px solid blue;
 }
 
 .btn{
@@ -32,7 +28,7 @@ h1 {
 }
 
 .btn:focus{
-    outline: none;
+    outline: darkblue;
 }
 
 .btn:active{
