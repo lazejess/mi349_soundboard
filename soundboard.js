@@ -10,10 +10,17 @@ sounds.forEach((sound) => {
     
     btn.innerText = sound;
 
-    btn.addEventListener("click", playAudio);
-    document.getElementById("buttons").appendChild(btn);
+    btn.addEventListener("click", () => {
+        stopSound();
+        document.getElementById(sound).play();
+    });
+
+    document.getElementById("buttons").append(btn);
 });
 
-function playAudio(){
-    document.getElementById(sound).play();
+function stopSound() {
+    sounds.forEach((sound) => {
+        const soundsnip = document.getElementById(sound);
+        soundsnip.pause();
+    })
 }
