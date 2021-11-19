@@ -32,3 +32,9 @@ section{
     transition: all 0.2s ease-in-out;
 }
 
+.btn:active{
+    background-color: cornflowerblue;
+    transform: scale(0.8);
+    transform: translateY(4px);
+    box-shadow: 0 0 10px #e8e8e8;
+}
