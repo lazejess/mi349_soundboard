@@ -1,20 +1,20 @@
-*{
-    box-sizing: border-box;
-}
 body {
-    background-color: #ddd;
-    font-family: sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-    overflow: hidden;
-    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    color:black;
+    border-top: 10px solid darkblue;
+    background-color:whitesmoke ;
+    
 }
 
-
+h1 {
+    font-size: 3em;
+    color: darkblue;
+    margin: 0;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .btn{
     background-color: blue;
