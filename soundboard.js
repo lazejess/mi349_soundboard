@@ -22,6 +22,5 @@ function stopSound() {
     sounds.forEach((sound) => {
         const soundsnip = document.getElementById(sound);
         soundsnip.pause();
-        soundsnip.currentTime = 0;
     })
 }
